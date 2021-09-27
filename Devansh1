@@ -7,7 +7,7 @@ https://kubernetes.io/docs/tasks/tools/install-kubectl
 
 If you don't have a Kubernetes environment, the quickest way to get one running is likely via minikube:
 
-https://kubernetes.io/docs/tasks/tools/install-minikube/
+https://kubernetes.io/docs/tasks/tools/install-Kubernetes/
 
 ## We'll also leverage Helm to install the pieces of our Istio enviornment
 Get and install helm for your environment:
