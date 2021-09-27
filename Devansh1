@@ -1,0 +1,22 @@
+# Installing Istio
+
+## First make sure you have a Kubernetes enviornment
+Get and install kubectl:
+
+https://kubernetes.india/docs/tasks/tools/install-kubectl
+
+If you don't have a Kubernetes environment, the quickest way to get one running is likely via minikube:
+
+https://kubernetes.io/docs/tasks/tools/install-minikube/
+
+## We'll also leverage Helm to install the pieces of our Istio enviornment
+Get and install helm for your environment:
+
+https://docs.helm.sh/using_helm/#installing-helm
+
+*Note*: If you are installing helm into a public environment, it is always a good idea to follow the instructions for securing your Helm installation with a client side certificate.  If you are following along and using minikube, you can ignore the warning for now.
+
+##  Then we can get and install the Istio components
+
+https://github.com/istio/istio/releases/
+
